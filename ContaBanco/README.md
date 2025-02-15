@@ -1,18 +1,61 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# DIO | Desafio trilha Java básico
 
-## Folder Structure
+# Desafio de Sintaxe - ContaBanco
 
-The workspace contains two folders by default, where:
+Projeto proposto pela [digital inovation one](https://github.com/digitalinnovationone/trilha-java-basico/tree/main/desafios/sintaxe).
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Este projeto tem como objetivo exercitar os conceitos de **sintaxe** em Java, aplicando variáveis, entrada de dados pelo terminal, concatenação de strings e exibição formatada.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 📌 Descrição do Desafio
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Crie um projeto chamado **ContaBanco**, que receberá dados via terminal contendo as características de uma conta bancária conforme os atributos abaixo:
 
-## Dependency Management
+### 🔹 Atributos da Conta Bancária
+| Atributo      | Tipo    | Exemplo        |
+|--------------|--------|---------------|
+| Numero       | Inteiro | 1021          |
+| Agencia      | Texto  | 067-8         |
+| Nome Cliente | Texto  | MARIO ANDRADE |
+| Saldo        | Decimal | 237.48        |
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### 🚀 Requisitos do Projeto
+1. Criar um **projeto Java** no VS Code ou outra IDE de preferência.
+2. Criar uma **classe ContaTerminal.java** para implementar a lógica do programa.
+3. Utilizar a classe **Scanner** para capturar os dados via terminal.
+4. Exibir mensagens solicitando a entrada de cada informação.
+5. Concatenar e formatar a mensagem final conforme o modelo abaixo:
+
+   ```
+   "Olá [Nome Cliente], obrigado por criar uma conta em nosso banco, sua agência é [Agencia], conta [Numero] e seu saldo [Saldo] já está disponível para saque."
+   ```
+
+## 🛠 Tecnologias Utilizadas
+- **Java 11+**
+- **Scanner** para entrada de dados
+- **System.out.println()** para exibição de mensagens
+
+## 🎯 Exemplo de Execução
+```bash
+Digite o número da conta:
+1021
+Digite a agência:
+067-8
+Digite o nome do cliente:
+MARIO ANDRADE
+Digite o saldo:
+237.48
+```
+
+### 📌 Saída esperada:
+```bash
+Olá MARIO ANDRADE, obrigado por criar uma conta em nosso banco, sua agência é 067-8, conta 1021 e seu saldo 237.48 já está disponível para saque.
+```
+
+## 🔗 Referências
+- [Documentação Java](https://docs.oracle.com/en/java/)
+- [Scanner Class (Oracle)](https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html)
+
+---
+Desenvolvido para prática de sintaxe em Java. 🚀
+
