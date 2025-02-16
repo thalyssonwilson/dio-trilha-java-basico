@@ -1,61 +1,38 @@
+# 📌 Desafios de Java
 
-# DIO | Desafio trilha Java básico
+Bem-vindo ao repositório **Desafios de Java** da **trilha de Java básico** do **Bootcamp Bradesco - Java Cloud Native!** da [Digital Innovation One](https://web.dio.me/track/bradesco-java-cloud-native) 🚀
 
-# Desafio de Sintaxe - ContaBanco
+Este repositório foi criado para armazenar e compartilhar desafios práticos resolvidos em **Java**, abordando conceitos fundamentais da linguagem, estrutura de controle de fluxo, tratamento de exceções, entrada e saída de dados, entre outros tópicos essenciais para o desenvolvimento backend.
 
-Projeto proposto pela [digital inovation one](https://github.com/digitalinnovationone/trilha-java-basico/tree/main/desafios/sintaxe).
+## 📂 Estrutura do Repositório
 
-Este projeto tem como objetivo exercitar os conceitos de **sintaxe** em Java, aplicando variáveis, entrada de dados pelo terminal, concatenação de strings e exibição formatada.
+Cada desafio está organizado em sua própria pasta contendo:
+- Código-fonte Java.
+- README explicativo com detalhes sobre o desafio e instruções de execução.
+- Exemplos de entrada e saída do programa.
 
-## 📌 Descrição do Desafio
+## 🚀 Objetivo
 
-Crie um projeto chamado **ContaBanco**, que receberá dados via terminal contendo as características de uma conta bancária conforme os atributos abaixo:
+Este repositório tem como propósito **praticar e fortalecer conhecimentos em Java**, aplicando conceitos teóricos em desafios práticos. É ideal para quem deseja aprimorar a lógica de programação e se preparar para desafios técnicos.
 
-### 🔹 Atributos da Conta Bancária
-| Atributo      | Tipo    | Exemplo        |
-|--------------|--------|---------------|
-| Numero       | Inteiro | 1021          |
-| Agencia      | Texto  | 067-8         |
-| Nome Cliente | Texto  | MARIO ANDRADE |
-| Saldo        | Decimal | 237.48        |
+## 🔥 Como Utilizar
 
-### 🚀 Requisitos do Projeto
-1. Criar um **projeto Java** no VS Code ou outra IDE de preferência.
-2. Criar uma **classe ContaTerminal.java** para implementar a lógica do programa.
-3. Utilizar a classe **Scanner** para capturar os dados via terminal.
-4. Exibir mensagens solicitando a entrada de cada informação.
-5. Concatenar e formatar a mensagem final conforme o modelo abaixo:
-
-   ```
-   "Olá [Nome Cliente], obrigado por criar uma conta em nosso banco, sua agência é [Agencia], conta [Numero] e seu saldo [Saldo] já está disponível para saque."
-   ```
-
-## 🛠 Tecnologias Utilizadas
-- **Java 11+**
-- **Scanner** para entrada de dados
-- **System.out.println()** para exibição de mensagens
-
-## 🎯 Exemplo de Execução
+1️⃣ Clone o repositório:
 ```bash
-Digite o número da conta:
-1021
-Digite a agência:
-067-8
-Digite o nome do cliente:
-MARIO ANDRADE
-Digite o saldo:
-237.48
+git clone https://github.com/seu-usuario/dio-trilha-java-basico
 ```
 
-### 📌 Saída esperada:
-```bash
-Olá MARIO ANDRADE, obrigado por criar uma conta em nosso banco, sua agência é 067-8, conta 1021 e seu saldo 237.48 já está disponível para saque.
-```
+2️⃣ Navegue até o desafio desejado e siga as instruções do respectivo README.
 
-## 🔗 Referências
-- [Documentação Java](https://docs.oracle.com/en/java/)
-- [Scanner Class (Oracle)](https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html)
+3️⃣ Teste os códigos, modifique e experimente soluções alternativas!
+
+## 🤝 Contribuição
+
+Caso queira contribuir, sinta-se à vontade para abrir um **Pull Request** com sugestões, correções ou melhorias!
 
 ---
-Desenvolvido para prática de sintaxe em Java. 🚀
+📌 **Mantenha-se sempre praticando e evoluindo!** 💡
 
+<br>
+
+Por Thalysson Wilson!
