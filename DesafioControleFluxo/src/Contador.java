@@ -25,7 +25,7 @@ public class Contador {
             System.out.println("Erro: "+e.getMessage());
         }
 
-
+        sc.close();
 
     }
 
